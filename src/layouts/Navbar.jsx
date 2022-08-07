@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Footer(props) {
   return (
     <nav className={styles.navbar}>
-      <Container customClass='min-height'>
+      <Container>
       <Link to="/">
       <img src={logo} alt="Logo"/>
       </Link>
