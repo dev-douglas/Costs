@@ -8,6 +8,14 @@ export default function Select({ text, name, options, handleOnChange, value}) {
         <option>
           Selecione uma opção
         </option>
+        {
+          options.map( (value, index) => (
+            <option 
+              value={value.id}
+              key={index}
+            >{value.name}</option>
+          ))
+        }
       </select>
     </div>
   )
