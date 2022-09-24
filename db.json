@@ -1,5 +1,16 @@
 {
   "projects": [
+    {
+      "name": "Correios",
+      "budget": "1",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "sevice": [],
+      "id": 1
+    }
   ],
   "categories": [
     {
