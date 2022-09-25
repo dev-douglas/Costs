@@ -2,10 +2,10 @@
   "projects": [
     {
       "name": "Correios",
-      "budget": "1",
+      "budget": "1115",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "1",
+        "name": "Infra"
       },
       "cost": 0,
       "sevice": [],
