@@ -8,6 +8,7 @@ import {
 import Home from './pages/Home'
 import Company from './pages/Company'
 import Projects from './pages/Projects'
+import Project from './pages/Project'
 import Contact from './pages/Contact'
 import NewProject from './pages/NewProject'
 import Navbar from './layouts/Navbar'
@@ -23,6 +24,7 @@ export default function AppRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/company" element={<Company />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/new-project" element={<NewProject />} />
         </Routes>

@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom'
 
 import Message from "../layouts/Message"
 
-import styles from './Project.module.css'
+import styles from './Projects.module.css'
 import Container from '../layouts/Container'
 import LinkButton from '../layouts/LinkButton'
 import ProjectCard from '../components/projects/ProjectCard'
