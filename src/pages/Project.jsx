@@ -69,7 +69,7 @@ export default function Project() {
       {
         ( project.name ?
           <div className={styles.project_details} >
-            <Container customClass="column">
+            <Container customClass="column" customClass2="min_height">
               {message && <Message type={type} msg={message}/>}
               <div className={styles.details_container}>
                 <h1>Projeto: { project.name }</h1>

@@ -62,7 +62,7 @@ export default function Projects() {
       </div>
       {message && <Message type='success' msg={message}/>}
       {projectMessage && <Message type='success' msg={projectMessage}/>}
-      <Container customClass="start">
+      <Container customClass2="min_height" customClass="start">
         {
           projects.length > 0 && projects.map((project) => (
             <ProjectCard
